@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
-  <remote name="b2g"
-           fetch="git://github.com/mozilla-b2g/" />
-  <remote name="mozilla"
-	  fetch="git://github.com/mozilla/" />
-  <remote name="fsl"
-          fetch="git://github.com/jvidalsm/" />
-  <default revision="freescale"
-           remote="fsl"
-           sync-j="4" />
+	
+	<remote name="aosp"
+			fetch="https://android.googlesource.com/" />
+	<remote name="b2g"
+			fetch="git://github.com/mozilla-b2g/" />
+	<remote name="mozilla"
+			fetch="git://github.com/mozilla/" />
+	<remote name="fsl"
+			fetch="git://github.com/jvidalsm/" />
+	<default revision="freescale"
+			remote="fsl"
+			sync-j="4" />
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="platform-build">
