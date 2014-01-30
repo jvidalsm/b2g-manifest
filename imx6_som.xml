@@ -33,7 +33,7 @@
 
   <!-- Stock Android things -->
   <project path="abi" name="external-abi"/>
-  <project path="bootable" name="plataform-bootable"/>
+  <project path="bootable" name="platform-bootable"/>
   <project path="development" name="platform-development"/>
   <project path="libcore" name="platform-libcore"/>
   <project path="ndk" name="platform-ndk"/>
