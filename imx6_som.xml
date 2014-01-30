@@ -8,7 +8,7 @@
 	<remote name="mozilla"
 			fetch="git://github.com/mozilla/" />
 	<remote name="fsl"			
-			fetch="ssh://git@bitbucket.org/thomastsai/" />
+			fetch="https://git@bitbucket.org/thomastsai/" />
 	<default revision="freescale"
 			remote="fsl"
 			sync-j="4" />
