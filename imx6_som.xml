@@ -32,7 +32,7 @@
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="v1-train"/>
 
   <!-- Stock Android things -->
-  <project path="platform/abi" name="external-abi"/>
+  <project path="abi" name="platform-abi"/>
   <project path="bootable" name="platform-bootable"/>
   <project path="development" name="platform-development"/>
   <project path="libcore" name="platform-libcore"/>
