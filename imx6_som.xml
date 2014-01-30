@@ -14,10 +14,12 @@
 			sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform-build">
+  <!-- <project path="build" name="platform_build"> -->
+  <project path="build" name="platform_build" remote="b2g" revision="master">	  
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="gonk-­misc" name="gonk-misc"/>
+  <!-- <project path="gonk-­misc" name="gonk-misc"/> -->
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="patches" name="patches"/>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1-train"/>
   <project path="gecko" name="mozilla-central" remote="mozilla" revision="master"/>
@@ -32,18 +34,18 @@
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="v1-train"/>
 
   <!-- Stock Android things -->
-  <project path="abi" name="platform-abi"/>
-  <project path="bootable" name="platform-bootable"/>
-  <project path="development" name="platform-development"/>
-  <project path="libcore" name="platform-libcore"/>
-  <project path="ndk" name="platform-ndk"/>
-  <project path="prebuilt" name="platform-prebuilt"/>
-  <project path="bionic" name="platform-bionic"/>
+  <project path="abi/cpp" name="platform/abi/cpp"/>
+  <project path="bootable" name="platform/bootable"/>
+  <project path="development" name="platform/development"/>
+  <project path="libcore" name="platform/libcore"/>
+  <project path="ndk" name="platform/ndk"/>
+  <project path="prebuilt" name="platform/prebuilt"/>
+  <project path="bionic" name="platform/bionic"/>
   
-  <project path="system/bluetooth" name="system-bluetooth"/>
-  <project path="system/core" name="system-core"/>
-  <project path="system/extras" name="system-extras"/>
-  <project path="system/media" name="system-media"/>
-  <project path="system/netd" name="system-netd"/>
-  <project path="system/vold" name="system-vold"/>
+  <project path="system/bluetooth" name="platform/system/bluetooth"/>
+  <project path="system/core" name="platform/system/core"/>
+  <project path="system/extras" name="platform/system/extras"/>
+  <project path="system/media" name="platform/system/media"/>
+  <project path="system/netd" name="platform/system/netd"/>
+  <project path="system/vold" name="platform/system/vold"/>
 </manifest>
