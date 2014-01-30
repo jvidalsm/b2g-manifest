@@ -32,17 +32,17 @@
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="v1­-train"/>
 
   <!-- Stock Android things -->
-  <project path="abi" name="external-­abi"/>
-  <project path="bootable" name="platform­-bootable"/>
-  <project path="development" name="platform-­development"/>
-  <project path="libcore" name="platform­-libcore"/>
-  <project path="ndk" name="platform-­ndk"/>
-  <project path="prebuilt" name="platform-­prebuilt"/>
-  <project path="bionic" name="platform­-bionic"/>
-  <project path="system/bluetooth" name="system­-bluetooth"/>
-  <project path="system/core" name="system­-core"/>
-  <project path="system/extras" name="system­-extras"/>
-  <project path="system/media" name="system­-media"/>
-  <project path="system/netd" name="system­-netd"/>
-  <project path="system/vold" name="system­-vold"/>
+  <project path="abi" name="external-abi"/>
+  <project path="bootable" name="plataform-bootable"/>
+  <project path="development" name="platform-development"/>
+  <project path="libcore" name="platform-libcore"/>
+  <project path="ndk" name="platform-ndk"/>
+  <project path="prebuilt" name="platform-prebuilt"/>
+  <project path="bionic" name="platform-bionic"/>
+  <project path="system/bluetooth" name="system-bluetooth"/>
+  <project path="system/core" name="system-core"/>
+  <project path="system/extras" name="system-extras"/>
+  <project path="system/media" name="system-media"/>
+  <project path="system/netd" name="system-netd"/>
+  <project path="system/vold" name="system-vold"/>
 </manifest>
